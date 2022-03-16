@@ -1,0 +1,30 @@
+body {
+    background-image: url("https://i.pinimg.com/736x/67/e6/af/67e6afb45fa7c6fe53aa7b1037e205e9.jpg");
+}
+
+.card {
+    background-color: #ffffff;
+}
+
+.important {
+    background-color: black;
+    color: white;
+}
+
+.image {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.form { 
+    margin-top: 5rem;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+ }
+
+.container {
+    text-align:left;
+    font-size: 40px; 
+}
+    

@@ -1,0 +1,220 @@
+<td bgcolor="#3A729B" align="center">
+      <center>
+      [ <a href="Startseite.html">Startseite</a> ] &nbsp; [ <a href="Haushaltsrechner.html">Haushaltsrechner</a> ] &nbsp; [ <a href="Zins-vergleich.html">Zins-Vergleich</a> ] &nbsp;  &nbsp; [ <a href="Login.html">Login</a> ] &nbsp; [ <a href="Impressung.html">Impressung</a> ]
+      </center>
+  </td>
+   <style>
+      body {
+      background-image: url("https://i.pinimg.com/736x/67/e6/af/67e6afb45fa7c6fe53aa7b1037e205e9.jpg");
+      }
+      .card {
+      background-color: #ffffff;
+   </style>
+  <center>
+   <div
+   <form action="/zinsrechner/index.php" method="post" target="" name="inform" onload="javascript:document.inform.betrag.focus();">
+  
+  <p>
+  
+  <table border="0" cellspacing="0" cellpadding="5" style="font-family: verdana,tahoma,arial; font-size: 10pt;">
+  <tbody><tr>
+  <td nowrap="" style="border-width: 1pt; border-style: solid; border-color: #000000; border-collapse: collapse; background-color: #c5cfd6;">
+  
+  <table border="0" cellspacing="0" cellpadding="0" style="font-family:verdana,tahoma,arial;font-size:10pt;">
+  <tbody><tr>
+  <td>
+  <b>B<u>e</u>trag:</b>&nbsp;
+  </td>
+  <td>
+      <input type="text" name="betrag" value="" size="12" maxlength="15" style="font-family:verdana,tahoma,arial;font-size:10pt;border-width:1pt;border-style:solid;border-color:#000000;" accesskey="e">&nbsp;<b>€</b>
+  </td>
+  <td>&nbsp;<small>(Regelfall: Brutto) <a href="./aktuell/#6" target="_blank">[?]</a></small></td>
+  </tr>
+  <tr>
+  <td>
+  <b><u>V</u>on:</b>&nbsp;
+  </td>
+  <td>
+  <input type="text" name="vond" value="" size="2" maxlength="2" style="font-family:verdana,tahoma,arial;font-size:10pt;border-width:1pt;border-style:solid;border-color:#000000;" accesskey="v">.<input type="text" name="vonm" value="" size="2" maxlength="2" style="font-family:verdana,tahoma,arial;font-size:10pt;border-width:1pt;border-style:solid;border-color:#000000;">.<input type="text" name="vony" value="" size="4" maxlength="4" style="font-family:verdana,tahoma,arial;font-size:10pt;border-width:1pt;border-style:solid;border-color:#000000;">
+  </td>
+  <td>&nbsp;<small>(Folgetag des Fälligkeitstermins) <a href="./aktuell/#3" target="_blank">[?]</a></small></td>
+  </tr>
+  <tr>
+  <td>
+  <b><u>B</u>is:</b>&nbsp;
+  </td>
+  <td>
+  <input type="text" name="bisd" value="04" size="2" maxlength="2" style="font-family:verdana,tahoma,arial;font-size:10pt;border-width:1pt;border-style:solid;border-color:#000000;" accesskey="b">.<input type="text" name="bism" value="03" size="2" maxlength="2" style="font-family:verdana,tahoma,arial;font-size:10pt;border-width:1pt;border-style:solid;border-color:#000000;">.<input type="text" name="bisy" value="2022" size="4" maxlength="4" style="font-family:verdana,tahoma,arial;font-size:10pt;border-width:1pt;border-style:solid;border-color:#000000;">
+  </td>
+  <td>&nbsp;<small>(Zahlungstermin) <a href="./aktuell/#3" target="_blank">[?]</a></small></td>
+  </tr>
+  </tbody></table>
+  
+  </td>
+  
+  
+  <td>
+  <!--
+  <table border=0 cellspacing=0 cellpadding=0 style="width: 300px; font-family: courier new, courier; font-size: 10pt; text-align: right; vertical-align: middle;">
+  <tr>
+  <td>
+  Absenden durch<br>
+  <b>[ENTER]</b><br>
+  oder Klick auf den Button
+  
+  </td>
+  </tr>
+  </table>
+  -->
+  
+  </td>
+  </tr>
+  
+  </tbody></table>
+  
+  </p>
+  
+  
+  <p>
+  
+  <table border="0" cellspacing="0" cellpadding="3" style="font-family:verdana,tahoma,arial;font-size:8pt;background-color:#c5cfd6;border-width:1pt;border-style:solid;border-color:#000000;border-collapse:collapse;">
+  
+  <tbody><tr>
+  <td nowrap="" align="left" valign="top">
+  <input type="radio" name="zinsart" value="1" checked="" onfocus="javascript:document.inform.aszins.value='';document.inform.adzins.value='';" accesskey="5">
+  </td>
+  <td nowrap="" align="left" valign="top">
+  <div style="font-size:10pt;">
+  <b>Verbrauchergeschäft, <a href="http://dejure.org/gesetze/BGB/13.html" target="_blank">BGB § 13</a></b><br>
+  </div>
+  (Verzugszinssatz seit 01.01.1900: 4%, BGB § 288 (1) S. 1 aF)<br>
+  (Verzugszinssatz seit 01.05.2000: 5 Prozentpunkte über Basiszinssatz, <a href="http://dejure.org/gesetze/0BGB010102/288.html" target="_blank">BGB § 288 (1) S. 1 aF</a>)<br>
+  (Verzugszinssatz seit 01.01.2002: 5 Prozentpunkte über Basiszinssatz, <a href="http://dejure.org/gesetze/BGB/288.html" target="_blank">BGB § 288 (1) S. 2 nF</a>)<br>
+  </td>
+  </tr>
+  
+  <tr>
+  <td nowrap="" align="left" valign="top" style="border-top-width:1pt;border-top-style:solid;border-top-color:#000000;">
+  <input type="radio" name="zinsart" value="2" onfocus="javascript:document.inform.aszins.value='';document.inform.adzins.value='';" accesskey="8">
+  </td>
+  <td nowrap="" align="left" valign="top" style="border-top-width:1pt;border-top-style:solid;border-top-color:#000000;">
+  <div style="font-size:10pt;">
+  <b>Handelsgeschäft, <a href="http://dejure.org/gesetze/HGB/343.html" target="_blank">HGB § 343 (1)</a></b><br>
+  </div>
+  (Verzugszinssatz seit 01.01.1900: 5%, HGB § 352 (1) S. 1 aF)<br>
+  (Verzugszinssatz seit 01.05.2000: 5 Prozentpunkte über Basiszinssatz, <a href="http://dejure.org/gesetze/0BGB010102/288.html" target="_blank">BGB § 288 (1) S. 1 aF</a>)<br>
+  (Verzugszinssatz seit 01.01.2002: 8 Prozentpunkte über Basiszinssatz ) <br>
+  <span style="color:#800000">(Verzugszinssatz seit 29.07.2014: 9 Prozentpunkte über Basiszinssatz, <a href="http://dejure.org/gesetze/BGB/288.html" target="_blank">BGB § 288 II nF</a>)<br>
+  &nbsp;&nbsp;&nbsp;* zusätzlich kann eine Verzugspauschale von 40€ erhoben werden</span>
+  </td>
+  </tr>
+  
+  <tr>
+  <td nowrap="" align="left" valign="top" style="border-top-width:1pt;border-top-style:solid;border-top-color:#000000;">
+  <input type="radio" name="zinsart" value="3" onfocus="javascript:document.inform.adzins.focus();document.inform.aszins.value='';" accesskey="d">
+  </td>
+  <td nowrap="" align="left" valign="top" style="border-top-width:1pt;border-top-style:solid;border-top-color:#000000;">
+  <div style="font-size:10pt;">
+  <b>Alternativer <u>d</u>ynamischer Zinssatz:&nbsp;
+  <input type="text" name="adzins" value="" size="8" maxlength="12" onclick="javascript:document.inform.elements[9].checked=true;document.inform.aszins.value='';" style="font-family:verdana,tahoma,arial;font-size:8pt;border-width:1pt;border-style:solid;border-color:#000000;">&nbsp;Prozentpunkte über Basiszinssatz&nbsp;&nbsp;</b><br>
+  </div>
+  (zB aus vertragl. Abrede oder <a href="http://dejure.org/gesetze/BGB/497.html" target="_blank">BGB § 497 (1) S. 2 nF</a>)<br>
+  </td>
+  </tr>
+  
+  <tr>
+  <td nowrap="" align="left" valign="top" style="border-top-width:1pt;border-top-style:solid;border-top-color:#000000;">
+  <input type="radio" name="zinsart" value="4" onfocus="javascript:document.inform.aszins.focus();document.inform.adzins.value='';" accesskey="s">
+  </td>
+  <td nowrap="" align="left" valign="top" style="border-top-width:1pt;border-top-style:solid;border-top-color:#000000;">
+  <div style="font-size:10pt;">
+  <b>Alternativer <u>s</u>tatischer Zinssatz:&nbsp;
+  <input type="text" name="aszins" value="" size="8" maxlength="12" onclick="javascript:document.inform.elements[11].checked=true;document.inform.adzins.value='';" style="font-family:verdana,tahoma,arial;font-size:8pt;border-width:1pt;border-style:solid;border-color:#000000;">&nbsp;%</b><br>
+  </div>
+  (zB aus anderem Rechtsgrund, <a href="http://dejure.org/gesetze/BGB/288.html" target="_blank">BGB § 288 (3) nF</a>, <a href="http://dejure.org/gesetze/0BGB010102/288.html" target="_blank">BGB § 288 (1) S. 2 aF</a>)
+  </td>
+  </tr>
+  
+  </tbody></table>
+  
+  </p>
+  
+  <input type="hidden" name="send" value="calc">
+  <div align="center">
+  <input type="submit" value="Absenden >>>" style="width: 400px; height: 42px; font-family:verdana,tahoma,arial; font-size: 20px; margin: 0px; spacing: 0px; cursor: pointer;">
+  
+  </div>
+  </form>
+  <p>
+  
+  <table border="0" cellspacing="0" cellpadding="5" style="font-family:verdana,tahoma,arial;font-size:8pt;">
+  <tbody><tr>
+  <td nowrap="" style="border-width:1pt;border-style:dotted;border-color:#000000;border-collapse:collapse;">
+  <b><u>Ausgangsdaten:</u></b><br>
+  &nbsp;•&nbsp;Betrag:&nbsp;100.000,00&nbsp;€<br>
+  &nbsp;•&nbsp;Von:&nbsp;Sa., 01.01.2022<br>
+  &nbsp;•&nbsp;Bis:&nbsp;Do., 30.06.2022<br>
+  &nbsp;•&nbsp;Verzugszinssatz:<br>
+  &nbsp;&nbsp;&nbsp;-&nbsp;
+  Verbrauchergeschäft (5 Prozentpunkte über Basiszinssatz)
+  
+  </td>
+  
+  </tr>
+  </tbody></table>
+  
+  </p>
+  <p>
+  
+  <table border="0" cellspacing="0" cellpadding="2" style="font-family:verdana,tahoma,arial;font-size:8pt;border-width:1pt;border-style:solid;border-color:#000000;border-collapse:collapse;">
+  
+  <tbody><tr bgcolor="#c5cfd6">
+   <td nowrap="" align="left" style="border-width:1pt;border-style:solid;border-color:#000000;border-collapse:collapse;"><b>Zeitraum</b></td>
+   <td nowrap="" align="right" style="border-width:1pt;border-style:solid;border-color:#000000;border-collapse:collapse;">&nbsp;<b>Tage</b></td>
+   <td nowrap="" align="right" style="border-width:1pt;border-style:solid;border-color:#000000;border-collapse:collapse;">&nbsp;<b>Zinssatz</b></td>
+   <td nowrap="" align="right" style="border-width:1pt;border-style:solid;border-color:#000000;border-collapse:collapse;">&nbsp;<b>Zinsertrag</b></td>
+  </tr>
+  
+  
+  <tr>
+   <td nowrap="" align="right">01.01.2022 - 30.06.2022:</td>
+   <td nowrap="" align="right">&nbsp;181</td>
+   <td nowrap="" align="right">&nbsp;4.12 %</td>
+   <td nowrap="" align="right">&nbsp;2.043,0685&nbsp;€</td>
+  </tr>
+  
+  
+  <tr bgcolor="#c5cfd6">
+   <td nowrap="" colspan="4" align="left" style="border-width:1pt;border-style:solid;border-color:#000000;border-collapse:collapse;"><b>Total:</b></td>
+  </tr>
+  
+  <tr>
+   <td nowrap="" align="right">01.01.2022 - 30.06.2022:</td>
+   <td nowrap="" align="right">&nbsp;181</td>
+   <td nowrap="" align="right">&nbsp;<b>Zinsen:</b></td>
+   <td nowrap="" align="right" bgcolor="#90b0c0" style="border-width:1pt;border-style:solid;border-color:#000000;border-collapse:collapse;"><b>&nbsp;2.043,0685&nbsp;€</b></td>
+  </tr>
+  
+  <tr>
+   <td nowrap="" colspan="3" align="right"><b>Ausgangsforderung:</b></td>
+   <td nowrap="" align="right" style="border-width:1pt;border-style:solid;border-color:#000000;border-collapse:collapse;"><b>&nbsp;+&nbsp;100.000,0000&nbsp;€</b></td>
+  </tr>
+  
+  <tr>
+   <td nowrap="" colspan="3" align="right"><b>Gesamtforderung:</b></td>
+   <td nowrap="" align="right" bgcolor="#90b0c0" style="border-width:1pt;border-style:solid;border-color:#000000;border-collapse:collapse;"><b>&nbsp;=&nbsp;102.043,0685&nbsp;€</b></td>
+  </tr>
+  
+  
+  
+  <tr>
+   <td nowrap="" align="right">Jeder Tag ab 01.07.2022:</td>
+   <td nowrap="" align="right">&nbsp;1</td>
+   <td nowrap="" align="right">&nbsp;4.12 %</td>
+   <td nowrap="" align="right">&nbsp;11,2877&nbsp;€</td>
+  </tr>
+  
+  </tbody></table>
+  
+  </p>
+</center>

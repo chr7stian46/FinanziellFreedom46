@@ -1,0 +1,171 @@
+.lukg
+#wrapper {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 16px;
+	font-family: arial, sans-serif;
+}
+
+body {
+    background-color: #EDEBE8;
+    background-image: url("https://i.pinimg.com/736x/67/e6/af/67e6afb45fa7c6fe53aa7b1037e205e9.jpg");
+}
+
+header {
+    padding-top: 15px;
+	padding-bottom: 30px;
+	height: 50px;
+	text-align: center
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;	
+}
+
+nav li {
+	display: inline;
+	margin-right: 40px;
+}
+
+.title {
+	color: #777;
+	font-size: 20px;
+}
+
+a {
+	/*color: #777;
+    text-decoration: none;*/
+}
+
+section {
+	width: 603px;
+	float: left;
+	padding: 15px;
+	margin-top: 15px;
+	margin-right: 15px;
+	background-color: #F2F2F2;
+	border: 1px solid #DEDCD9;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.article {
+    height: 120px;
+	margin-top: 15px;
+	margin-bottom: 50px;
+}
+
+.article img {
+	float:left;
+	padding: 5px;
+	margin-right: 10px;
+	border: 1px solid #DEDCD9;
+}
+
+.article a {
+	font-size: 18px;
+	
+}
+
+aside {
+	display: flex;
+	width: 258px;
+	float: right;
+	padding: 25px;
+	margin-top: 15px;
+	background-color: #F2F2F2;
+	border: 1px solid #DEDCD9;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.sidebar img {
+	padding: 5px;
+	margin-top: 15px;
+	border: 1px solid #DEDCD9;
+}
+
+.sidebar a {
+	font-size: 32px;
+	padding: 10px;
+}
+
+.sidebar p {
+	 padding: 5px;
+}
+
+footer {
+	background-color: #F2F2F2;
+	border: 1px solid #DEDCD9;
+	border-radius: 5px;
+	clear: both;
+}
+
+footer ul {
+    float: left;
+	list-style: none;
+	padding: 0px;
+	margin: 20px;
+}
+
+footer li {
+    margin-right: 15px;
+	display: inline;
+}
+
+footer p {
+    text-align: right;
+	margin-right: 20px;
+	color: #777;
+}
+
+#über {
+    margin: 15px;
+}
+
+#über h1 {
+	color:#777;
+	padding-bottom: 10px
+}
+
+
+#kontakt {
+	margin: 15px;
+}
+
+#kontakt h1 {
+	color:#777;
+	padding-bottom: 10px
+}
+
+#deutsch {
+	margin: 15px;
+}
+
+#deutsch h1 {
+	color:#777;
+	padding-bottom: 10px
+}
+
+#mathe {
+	margin: 15px;
+}
+
+#mathe h1 {
+	color:#777;
+	padding-bottom: 10px
+}
+
+#englisch {
+	margin: 15px;
+}
+
+#englisch h1 {
+	color:#777;
+	padding-bottom: 10px
+}
